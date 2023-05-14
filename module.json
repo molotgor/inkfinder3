@@ -4,7 +4,7 @@
     "description": "A module containing the exported Inkfinder 3 compendium.",
     "version": "0.1.0",
     "library": "false",
-    "manifestPlusVersion": "0.1.0",
+    "manifestPlusVersion": "1.0.0",
     "compatibility": {
         "minimum": 10,
         "verified": 10,
