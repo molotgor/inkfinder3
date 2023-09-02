@@ -1,121 +1,148 @@
 {
-    "name": "inkfinder3",
-    "title": "Inkfinder 3",
-    "description": "A module containing the exported Inkfinder 3 compendium.",
-    "version": "1.0.1",
-    "library": "false",
-    "manifestPlusVersion": "1.0.0",
-    "compatibility": {
-        "minimum": 10,
-        "verified": 10,
-        "maximum": 11
+  "title": "Inkfinder 3",
+  "description": "A module containing the exported Inkfinder 3 compendium.",
+  "version": "2.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11",
+    "maximum": "11"
+  },
+  "authors": [
+    {
+      "name": "molotgor",
+      "email": "molotgog@gmail.com",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "inkfinder3": {
+      "pf2e-homebrew": {
+        "equipmentTraits": {
+          "disease": {
+            "label": "Disease",
+            "description": "This equipment applies one or more diseases. A disease is typically an affliction."
+          },
+          "holiday": {
+            "label": "Holiday",
+            "description": "A holiday tattoo requires only one day to prepare and one hour to Craft on the body, instead of the usual time for the Craft activity. However, because the magic of a holiday tattoo resonates with the celebration it commemorates, it can only be Crafted on the listed date at a location where the holiday is celebrated."
+          },
+          "pledge": {
+            "label": "Pledge",
+            "description": "This equipment inscribes a promise to uphold a principle or rule. The equipment’s beneficial abilities are suppressed for 24 hours if you violate the pledge, but the tattoo remains invested and its penalty remains in effect."
+          },
+          "scar": {
+            "label": "Scar",
+            "description": "This equipment represents an injury from the pursuit of a greater goal"
+          },
+          "ink": {
+            "label": "Ink",
+            "description": "This equipment can be further treated to expand or alter a tattoo’s effects"
+          },
+          "consumable": {
+            "label": "Consumable",
+            "description": "This equipment is destroyed after activation."
+          }
+        }
+      }
+    }
+  },
+  "packFolders": [
+    {
+      "name": "Inkfinder 3",
+      "sorting": "m",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "packs": [
+        "inkfinder3-cursed-tattoos",
+        "inkfinder3-holiday-tattoos",
+        "inkfinder3-pledge-tattoos",
+        "inkfinder3-scar-tattoos",
+        "inkfinder3-inks",
+        "inkfinder3-backgrounds",
+        "inkfinder3-feats",
+        "inkfinder3-effects"
+      ],
+      "folders": []
+    }
+  ],
+  "packs": [
+    {
+      "type": "Item",
+      "label": "Cursed Tattoos",
+      "path": "packs/inkfinder3-cursed-tattoos.db",
+      "name": "inkfinder3-cursed-tattoos",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
     },
-    "authors": [
-        {
-            "name": "molotgor",
-            "email": "molotgog@gmail.com",
-            "url": ""
-        }
-    ],
-	"flags": {
-		"inkfinder3": {
-			"pf2e-homebrew": {
-				"equipmentTraits": {
-					"disease": {
-						"label": "Disease",
-						"description": "This equipment applies one or more diseases. A disease is typically an affliction."
-					},
-					"holiday": {
-					  "label": "Holiday",
-					  "description": "A holiday tattoo requires only one day to prepare and one hour to Craft on the body, instead of the usual time for the Craft activity. However, because the magic of a holiday tattoo resonates with the celebration it commemorates, it can only be Crafted on the listed date at a location where the holiday is celebrated."
-					},
-					"pledge": {
-						"label": "Pledge",
-						"description": "This equipment inscribes a promise to uphold a principle or rule. The equipment’s beneficial abilities are suppressed for 24 hours if you violate the pledge, but the tattoo remains invested and its penalty remains in effect."
-					},
-					"scar": {
-						"label": "Scar",
-						"description": "This equipment represents an injury from the pursuit of a greater goal"
-					},
-					"ink": {
-						"label": "Ink",
-						"description": "This equipment can be further treated to expand or alter a tattoo’s effects"
-					},
-                    "consumable": {
-                      "label": "Consumable",
-                      "description": "This equipment is destroyed after activation."
-                    }
-				}
-			}
-		}
-	},
-    "packs": [
-        {
-            "type": "Item",
-            "label": "Inkfinder 3 Cursed Tattoos",
-            "module": "inkfinder3",
-            "path": "packs/inkfinder3-cursed-tattoos.db",
-            "name": "inkfinder3-cursed-tattoos",
-            "system": "pf2e"
-        },
-        {
-            "type": "Item",
-            "label": "Inkfinder 3 Holiday Tattoos",
-            "module": "inkfinder3",
-            "path": "packs/inkfinder3-holiday-tattoos.db",
-            "name": "inkfinder3-holiday-tattoos",
-            "system": "pf2e"
-        },
-        {
-            "type": "Item",
-            "label": "Inkfinder 3 Pledge Tattoos",
-            "module": "inkfinder3",
-            "path": "packs/inkfinder3-pledge-tattoos.db",
-            "name": "inkfinder3-pledge-tattoos",
-            "system": "pf2e"
-        },
-        {
-            "type": "Item",
-            "label": "Inkfinder 3 Scar Tattoos",
-            "module": "inkfinder3",
-            "path": "packs/inkfinder3-scar-tattoos.db",
-            "name": "inkfinder3-scar-tattoos",
-            "system": "pf2e"
-        },
-        {
-            "type": "Item",
-            "label": "Inkfinder 3 Inks",
-            "module": "inkfinder3",
-            "path": "packs/inkfinder3-inks.db",
-            "name": "inkfinder3-inks",
-            "system": "pf2e"
-        },
-        {
-            "type": "Item",
-            "label": "Inkfinder 3 Feats",
-            "module": "inkfinder3",
-            "path": "packs/inkfinder3-feats.db",
-            "name": "inkfinder3-feats",
-            "system": "pf2e"
-        },
-        {
-            "type": "Item",
-            "label": "Inkfinder 3 Backgrounds",
-            "module": "inkfinder3",
-            "path": "packs/inkfinder3-backgrounds.db",
-            "name": "inkfinder3-backgrounds",
-            "system": "pf2e"
-        },
-        {
-            "type": "Item",
-            "label": "Inkfinder 3 Effects",
-            "module": "inkfinder3",
-            "path": "packs/inkfinder3-effects.db",
-            "name": "inkfinder3-effects",
-            "system": "pf2e"
-        }
-    ],
-    "url": "https://github.com/molotgor/inkfinder3",
-    "manifest": "https://raw.githubusercontent.com/molotgor/inkfinder3/master/module.json",
-    "download": "https://github.com/molotgor/inkfinder3/archive/refs/heads/master.zip"
+    {
+      "type": "Item",
+      "label": "Holiday Tattoos",
+      "path": "packs/inkfinder3-holiday-tattoos.db",
+      "name": "inkfinder3-holiday-tattoos",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Pledge Tattoos",
+      "path": "packs/inkfinder3-pledge-tattoos.db",
+      "name": "inkfinder3-pledge-tattoos",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Scar Tattoos",
+      "path": "packs/inkfinder3-scar-tattoos.db",
+      "name": "inkfinder3-scar-tattoos",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Magical and Alchemical Inks",
+      "path": "packs/inkfinder3-inks.db",
+      "name": "inkfinder3-inks",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Feats/Features",
+      "path": "packs/inkfinder3-feats.db",
+      "name": "inkfinder3-feats",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Backgrounds",
+      "path": "packs/inkfinder3-backgrounds.db",
+      "name": "inkfinder3-backgrounds",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "type": "Item",
+      "label": "Effects",
+      "path": "packs/inkfinder3-effects.db",
+      "name": "inkfinder3-effects",
+      "system": "pf2e",
+      "private": false,
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/molotgor/inkfinder3",
+  "manifest": "https://raw.githubusercontent.com/molotgor/inkfinder3/master/module.json",
+  "download": "https://github.com/molotgor/inkfinder3/archive/refs/heads/master.zip",
+  "id": "inkfinder3"
 }
