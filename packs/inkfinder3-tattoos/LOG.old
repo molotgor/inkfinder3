@@ -1,0 +1,8 @@
+2024/06/11-15:58:57.138 f84 Recovering log #92
+2024/06/11-15:58:57.149 f84 Delete type=0 #92
+2024/06/11-15:58:57.149 f84 Delete type=3 #90
+2024/06/11-20:34:00.853 6924 Level-0 table #97: started
+2024/06/11-20:34:00.853 6924 Level-0 table #97: 0 bytes OK
+2024/06/11-20:34:00.859 6924 Delete type=0 #95
+2024/06/11-20:34:00.867 6924 Manual compaction at level-0 from '!folders!PqbLBj5od1U3evaG' @ 72057594037927935 : 1 .. '!items!zicwaozYr5oCB02H' @ 0 : 0; will stop at (end)
+2024/06/11-20:34:00.890 6924 Manual compaction at level-1 from '!folders!PqbLBj5od1U3evaG' @ 72057594037927935 : 1 .. '!items!zicwaozYr5oCB02H' @ 0 : 0; will stop at (end)

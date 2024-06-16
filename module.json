@@ -1,11 +1,11 @@
 {
   "title": "Inkfinder 3",
   "description": "A module containing the exported Inkfinder 3 compendium.",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "compatibility": {
-    "minimum": "11",
-    "verified": "11",
-    "maximum": "11"
+    "minimum": "12",
+    "verified": "12",
+    "maximum": "12"
   },
   "authors": [
     {
@@ -46,67 +46,19 @@
       }
     }
   },
-  "packFolders": [
-    {
-      "name": "Inkfinder 3",
-      "sorting": "m",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "packs": [
-        "inkfinder3-cursed-tattoos",
-        "inkfinder3-holiday-tattoos",
-        "inkfinder3-pledge-tattoos",
-        "inkfinder3-scar-tattoos",
-        "inkfinder3-inks",
-        "inkfinder3-backgrounds",
-        "inkfinder3-feats",
-        "inkfinder3-effects"
-      ],
-      "folders": []
-    }
-  ],
   "packs": [
     {
       "type": "Item",
-      "label": "Cursed Tattoos",
-      "path": "packs/inkfinder3-cursed-tattoos.db",
-      "name": "inkfinder3-cursed-tattoos",
+      "label": "Tattoos",
+      "path": "packs/inkfinder3-tattoos.db",
+      "name": "inkfinder3-tattoos",
       "system": "pf2e",
       "private": false,
       "flags": {}
     },
     {
       "type": "Item",
-      "label": "Holiday Tattoos",
-      "path": "packs/inkfinder3-holiday-tattoos.db",
-      "name": "inkfinder3-holiday-tattoos",
-      "system": "pf2e",
-      "private": false,
-      "flags": {}
-    },
-    {
-      "type": "Item",
-      "label": "Pledge Tattoos",
-      "path": "packs/inkfinder3-pledge-tattoos.db",
-      "name": "inkfinder3-pledge-tattoos",
-      "system": "pf2e",
-      "private": false,
-      "flags": {}
-    },
-    {
-      "type": "Item",
-      "label": "Scar Tattoos",
-      "path": "packs/inkfinder3-scar-tattoos.db",
-      "name": "inkfinder3-scar-tattoos",
-      "system": "pf2e",
-      "private": false,
-      "flags": {}
-    },
-    {
-      "type": "Item",
-      "label": "Magical and Alchemical Inks",
+      "label": "Inks",
       "path": "packs/inkfinder3-inks.db",
       "name": "inkfinder3-inks",
       "system": "pf2e",
@@ -139,6 +91,31 @@
       "system": "pf2e",
       "private": false,
       "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Brian W. Lane Books",
+      "sorting": "a",
+      "packs": [],
+      "folders": [
+        {
+          "name": "Inkfinder 3",
+          "sorting": "m",
+          "ownership": {
+            "PLAYER": "OBSERVER",
+            "ASSISTANT": "OWNER"
+          },
+          "packs": [
+            "inkfinder3-tattoos",
+            "inkfinder3-inks",
+            "inkfinder3-backgrounds",
+            "inkfinder3-feats",
+            "inkfinder3-effects"
+          ],
+          "folders": []
+        }
+      ]
     }
   ],
   "url": "https://github.com/molotgor/inkfinder3",
