@@ -1,7 +1,7 @@
 {
   "title": "Inkfinder 3",
   "description": "A module containing the exported Inkfinder 3 compendium.",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
